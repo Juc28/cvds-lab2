@@ -46,7 +46,7 @@ Esto solicitará:
  ```
       mvn exec: exec -Dexec.executable = "maven" [-Dexec.workingdir = "/ tmp"] -Dexec.args = "- X myproject: dist"
  ```
-## Buscarcómo enviar parámetros al plugin "exec".
+## Buscar cómo enviar parámetros al plugin "exec".
 ## Ejecutar nuevamente la clase desde línea de comandos y verificar la salida: Hello World!
 ## Ejecutar la clase desde línea de comandos enviando su nombre como parámetro y verificar la salida. Ej: Hello Pepito!
 ## Ejecutar la clase con su nombre y apellido como parámetro.¿Qué sucedió?
@@ -54,6 +54,5 @@ Esto solicitará:
 
 # ***ESQUELETO DE LA APLICACIÓN***
 ## ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
-# *** Gitinore ***
-Es un archivo .gitignore que  permite escribir extensiones de archivo que no quiero en el repositorio, (Archivos basura), como podriasser la clase .class de algún proyecto. /
-(Imagen2)
+# ***Gitinore***
+Es un archivo .gitignore que  permite escribir extensiones de archivo que no quiero en el repositorio, (Archivos basura), como podriasser la clase .class de algún proyecto.
