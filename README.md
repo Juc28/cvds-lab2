@@ -2,7 +2,7 @@
 PATTERNS - FACTORY
 # ***HERRAMIENTA MAVEN***
 ![1](https://github.com/Juc28/cvds-lab2/blob/master/pantallazos/logo.jpeg)
-## Cuál es su mayor utilidad
+## ¿Cuál es su mayor utilidad?
 Esta es una herramienta de software que se usa fundamentalemnte para la construcción y gestión de proyectos de Java.
 Maven utiliza un Project Object Model tambié conodiso como POM, esto para poder describir el proyecto a construir, componentes externos, el orden de construcción de elementos y sus dependencias de otros módulos. 
 Es de anotar quie presenta una ventaja al tener conectividad remota a su propio repositorio dando acceso a utilidades adicionales.
@@ -24,20 +24,20 @@ El plugien es un componente de codigo que esta hecho con el fin ampliar las func
 Este tiene una estructura  que permite que los archivos tengan versiones distintas, que a traves de un mecanismo de denominación bien conocido se descubran los mismos facilmente. \
 Las herramientas de compilación pueden usar estos nombres para extraer dinámicamente las dependencias de la aplicación. En la definición de la aplicación, llamada archivo POM, usando Maven como herramienta de compilación, simplemente nombra las dependencias y el proceso de compilación sabe qué hacer a partir de ahí.
 # ***CREAR UN PROYECTO CON MAVEN***
-## Cómo se crea un proyecto en Maven con ayuda de arquetipos
+* ¿Cómo se crea un proyecto en Maven con ayuda de arquetipos?
 ```
 mvn archetype:generate -Dfilter=maven-archetype-quickstart 
 ```
-Esto solicitará:
-- parámetros: Grupo: edu.eci.cvds
-- Id del Artefacto: Patterns
-- Paquete: edu.eci.cvds.patterns
-- archetypeArtifactId: maven-archetype-quickstart
+* Esto solicitará:
+   - parámetros: Grupo: edu.eci.cvds
+   - Id del Artefacto: Patterns
+   - Paquete: edu.eci.cvds.patterns
+   - archetypeArtifactId: maven-archetype-quickstart
 
 ![2](https://github.com/Juc28/cvds-lab2/blob/master/pantallazos/arquetipo.png)
 ![3](https://github.com/Juc28/cvds-lab2/blob/master/pantallazos/arquetipo1.png)
 
-Con tree veremos los archivos creados en mave :
+* Con tree veremos los archivos creados en mave :
 ```
 tree
 ```
@@ -53,7 +53,7 @@ dependencias: <properties>
 ![5](https://github.com/Juc28/cvds-lab2/blob/master/pantallazos/ajustes.png)
 
 # ***COMPILANDO Y EJECUTANDO***
-## Objetivo del parámetro "package"-parámetros se podrían enviar al comando mvn.
+Objetivo del parámetro "package"-parámetros se podrían enviar al comando mvn.
 - Objetivo --> Empaquetar el proyecto que por defecto crea un ejecutable .jar.
 
 Para compilar ejecute el comando:
