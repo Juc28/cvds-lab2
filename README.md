@@ -85,5 +85,5 @@ Ejecute múltiples vecesla clase ShapeMain, usando el plugin exec de maven con l
 * Parámetro: pentagon y  Parámetro : Hexagon
 ![12](https://github.com/Juc28/cvds-lab2/blob/master/pantallazos/aplicacion3.png)
 
-# ***Gitinore***
+# ***Gitignore***
 Es un archivo .gitignore que  permite escribir extensiones de archivo que no quiero en el repositorio, (Archivos basura), como podriasser la clase .class de algún proyecto.
