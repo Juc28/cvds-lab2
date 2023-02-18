@@ -3,7 +3,7 @@ PATTERNS - FACTORY
 # ***HERRAMIENTA MAVEN***
 ![1](https://github.com/Juc28/cvds-lab2/blob/master/pantallazos/logo.jpeg)
 ## ¿Cuál es su mayor utilidad?
-Esta es una herramienta de software que se usa fundamentalemnte para la construcción y gestión de proyectos de Java.
+Esta es una herramienta de software que se usa fundamentalemente para la construcción y gestión de proyectos de Java.
 Maven utiliza un Project Object Model tambié conodiso como POM, esto para poder describir el proyecto a construir, componentes externos, el orden de construcción de elementos y sus dependencias de otros módulos. 
 Es de anotar quie presenta una ventaja al tener conectividad remota a su propio repositorio dando acceso a utilidades adicionales.
 ## Fases de Maeven
