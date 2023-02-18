@@ -20,8 +20,8 @@ Es de anotar quie presenta una ventaja al tener conectividad remota a su propio 
 - Site --> Gestiona la creación de la documentación.
 ## Para qué sirven los plugins
 El plugien es un componente de codigo que esta hecho con el fin ampliar las funciones de una herramienta. En si tiene como proposito aportar funciones adicionales a programas informáticos.
-## Qué es y para qué sirve el repositorio central de maven 
-Este tiene una estructura  que permite que los archivos tengan versiones distintas, que a traves de un mecanismo de denominación bien conocido se descubran los mismos facilmente. \
+## ¿Qué es y para qué sirve el repositorio central de maven?
+Este tiene una estructura que permite que los archivos tengan versiones distintas, que a través de un mecanismo de denominación bien conocido se descubran los mismos fácilmente. \
 Las herramientas de compilación pueden usar estos nombres para extraer dinámicamente las dependencias de la aplicación. En la definición de la aplicación, llamada archivo POM, usando Maven como herramienta de compilación, simplemente nombra las dependencias y el proceso de compilación sabe qué hacer a partir de ahí.
 # ***CREAR UN PROYECTO CON MAVEN***
 * ¿Cómo se crea un proyecto en Maven con ayuda de arquetipos?
